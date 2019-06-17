@@ -1,4 +1,4 @@
-const {MulticastEmitter} = require('multicast-eventer');
+const MulticastEmitter = require('multicast-eventer');
 
 const sub = new MulticastEmitter();
 
