@@ -13,6 +13,7 @@
   "license": "MIT",
   "readme": "A bare bones Tessel 2 blinky script.",
   "dependencies": {
-    "ambient-attx4": "^0.2.11"
+    "ambient-attx4": "^0.2.11",
+    "multicast-eventer": "^1.0.0"
   }
 }

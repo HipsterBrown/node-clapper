@@ -2,7 +2,7 @@
 const tessel = require('tessel');
 const ambient = require('ambient-attx4');
 
-const MulticastEmitter = require('./multicast-events');
+const {MulticastEmitter} = require('multicast-eventer');
 
 const sensor = ambient.use(tessel.port['A']);
 const TRIGGER_LEVEL = 0.13;
